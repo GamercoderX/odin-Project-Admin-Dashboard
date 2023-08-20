@@ -59,6 +59,11 @@ h1 {
 .box-aqua{
     background-color: white;
     border-radius: 10px;
+    border-left-width: 10px;
+    border-color: yellow;
+    border-left-style: solid;
+    padding-left: 10px;
+    height: 200px;
 }
 
 .box-lightgreen{
@@ -69,6 +74,8 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
+    height: 600px;
+    margin: 10px;
 }
 
 .two-boxes{
@@ -81,6 +88,9 @@ h1 {
 
 /* header bits */
 
+.search-bar{
+    width: 100%;
+}
 .header{
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -89,7 +99,7 @@ h1 {
 .header-left{
     background-color: pink;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 3fr;
 }
 
 .header-right{
@@ -141,4 +151,38 @@ h1 {
 .left-side{
     display: grid;
     grid-template-rows: 1fr 1fr;
+}
+
+
+/* trending bit */
+.trending-profiles{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color: pink;
+
+}
+
+.trending-sub{
+    display: grid;
+    background-color: lightskyblue;
+    border-style: solid;
+    border-radius: 15px;
+    justify-content: center;
+    align-content: center;
+}
+
+.trending-sub2{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: lightgoldenrodyellow;
+
+}
+
+.trending-sub2 > div{
+    display: grid;
+    background-color: lightcyan;
+    border-style: solid;
+    border-radius: 15px;
+    justify-content: center;
+    align-content: center;
 }
