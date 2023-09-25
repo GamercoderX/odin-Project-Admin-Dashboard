@@ -10,8 +10,8 @@ body {
 }
 .grid-container {
     display: grid;
-    grid-template-columns: 250px 1fr; /* Sidebar takes 200px, main content takes remaining space */
-    grid-template-rows: 140px 1fr; /* Header takes 100px, rest for main content */
+    grid-template-columns: 300px 1fr; /* Sidebar takes 200px, main content takes remaining space */
+    grid-template-rows: 170px 1fr; /* Header takes 100px, rest for main content */
     /* gap: 10px; Add some space between grid items */
     height: 100vh; /* Make the grid container fill the viewport height */
 }
@@ -42,6 +42,11 @@ body {
 
 h1 {
     margin-bottom: 10px;
+}
+
+h2 {
+    margin: 0px;
+    
 }
 
 
@@ -85,6 +90,7 @@ h1 {
     grid-template-rows: 1fr 2fr;
     gap: 10px;
     border-radius: 10px;
+    
 }
 
 /* header bits */
@@ -115,10 +121,15 @@ h1 {
     grid-template-columns: 2fr 1fr;
 }
 
-.oakley-profile{
+/* .oakley-profile{
     background-color: pink;
     display: grid;
     grid-template-columns: 1fr 3fr;
+} */
+
+.the-profiles{
+    border-radius: 20px;
+    border-style: solid;
 }
 
 .header-right{
@@ -403,4 +414,33 @@ button{
 
 .two p{
    padding-bottom: 
+}
+
+.box-lightgreen{
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.box-lightgreen > div {
+    border-bottom: 2px;
+    border-style: solid;
+    
+}
+
+.headings  {
+    display: flex;
+    background-color: aqua;
+    padding-left: 10px;
+    
+    
+    
+    
+}
+
+.hh1 {
+    flex: 2;
+}
+
+.hh2 {
+    flex: 1;
 }
